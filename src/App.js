@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from 'react-particles-js';
 import AboutMe from "./components/AboutMe";
+import Services from "./components/Services";
+
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
     <Navbar />
     <Header />
     <AboutMe />
+    <Services />
     </>
   );
 }

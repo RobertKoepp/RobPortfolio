@@ -41,6 +41,7 @@
 
 :root {
   --primary-white: #fff; 
+  --pirmary-light-grey: #f4f4f4;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255, 0);
   --primary-red: #ef4035;
@@ -122,11 +123,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
-@media-info h1 {
+/* @media-info h1 { 
   .main-info h1 {
     font-size: 1.5rem !important;
   }
-}
+/* }  */
 
 /* Typed Text */
 
@@ -197,3 +198,60 @@ nav ul li {
   }
 }
 
+
+/* Services */
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--pirmary-light-grey)
+}
+
+.services h1 {
+  color: black;
+  text-transform: uppercase;
+}
+
+.services .circle {
+  position: relative;
+  margin: 0.375rem auto;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.services .icon {
+  font-size: 1.4rem;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.services .box {
+  height: 16rem;
+  border-bottom: 5px solid var(--primary-orange);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+}
+
+.services .box:hover {
+  background: orange;
+  border-bottom: 0.3125rem solid black;
+
+}
+
+.services .box:hover .icon {
+  color: black;
+}
+.services .box:hover .circle {
+  background: white;
+}
+
+.services .box:hover p {
+ color: white;
+}

@@ -154,6 +154,10 @@ const Portfolio = () => {
 
             </div>
             <PopupboxContainer {...popupboxConfigWeather}/>
+            <PopupboxContainer {...popupboxConfigEmployee}/>
+            <PopupboxContainer {...popupboxConfigBudget}/>
+            <PopupboxContainer {...popupboxConfigFitness}/>
+            
         </div>
     )
 }

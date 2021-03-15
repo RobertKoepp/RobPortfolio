@@ -264,6 +264,10 @@ nav ul li {
   padding: 3rem 0;
 }
 
+.portfolio-wrapper h1 {
+  color: rgb(233, 151, 0);
+}
+
 .portfolio-image {
   width: 15rem;
   border: 1px solid orange;
@@ -325,4 +329,23 @@ nav ul li {
 
 .hyper-link:hover {
   color: red;
+}
+
+
+/* Media */
+
+@media(max-width:768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height:570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+
+  .portfolio-image-popupbox {
+    width: 60%;
+  }
 }

@@ -349,3 +349,96 @@ nav ul li {
     width: 60%;
   }
 }
+
+/* Contacts COmponent */
+
+.contacts {
+  background:tan;
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: brown;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+
+}
+
+.contacts p {
+  color: black ;
+  font-size: 1.2rem;
+
+}
+
+/* Inputs*/
+
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid darkgray;
+  border-radius: 0;
+  color:whitesmoke;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0% !important;
+
+
+}
+
+.contacts .container {
+  padding: 4rem 0;
+
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: orangered;
+  border-bottom: 00.125rem solid darkgray;
+}
+
+.contacts textarea {
+  height: 12.4rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+
+}
+
+.line {
+  position: relative;
+  width: 0;
+  height: 0.125;
+  background: orange;
+  display: inline-block;
+
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Media */
+
+@media(max-width: 768px) {
+  
+  .contacts{
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+

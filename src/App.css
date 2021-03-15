@@ -119,8 +119,10 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: black;
   text-transform: uppercase;
+  background: orange;
+  
 }
 
 /* @media-info h1 { 
@@ -455,3 +457,27 @@ input:focus+.line, textarea:focus+.line {
   }
 }
 
+/* FOOTER COMPONENT */
+
+.footer {
+  background: black;
+  color: darkgray;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: darkgray;
+
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+  
+}

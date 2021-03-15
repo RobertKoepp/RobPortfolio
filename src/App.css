@@ -237,6 +237,7 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -254,4 +255,74 @@ nav ul li {
 
 .services .box:hover p {
  color: white;
+}
+
+/* Portfolio */
+
+.portfolio-wrapper {
+  background: lightgray;
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid orange;
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 2;
+}
+
+/* Overflow Box */
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: black;
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: orange;
+  font-size: 1.5rem;
+
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+
+/* OVERFLOW BOX */
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: orange;
+}
+
+.hyper-link:hover {
+  color: red;
 }

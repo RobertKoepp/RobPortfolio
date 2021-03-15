@@ -425,6 +425,19 @@ input:focus+.line, textarea:focus+.line {
   transition: width 0.5s ease-in-out;
 }
 
+.error-message {
+  color: white;
+  background: red;
+  text-align: left;
+
+}
+
+.success-message {
+  font-weight: 900;
+  color: green;
+
+}
+
 /* Media */
 
 @media(max-width: 768px) {

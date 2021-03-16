@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/RobPortfolio/static/css/main.52b7ae50.chunk.css",
+    "main.js": "/RobPortfolio/static/js/main.975a9511.chunk.js",
+    "main.js.map": "/RobPortfolio/static/js/main.975a9511.chunk.js.map",
+    "runtime-main.js": "/RobPortfolio/static/js/runtime-main.04510cb2.js",
+    "runtime-main.js.map": "/RobPortfolio/static/js/runtime-main.04510cb2.js.map",
+    "static/css/2.301e199a.chunk.css": "/RobPortfolio/static/css/2.301e199a.chunk.css",
+    "static/js/2.1e1fa11e.chunk.js": "/RobPortfolio/static/js/2.1e1fa11e.chunk.js",
+    "static/js/2.1e1fa11e.chunk.js.map": "/RobPortfolio/static/js/2.1e1fa11e.chunk.js.map",
+    "static/js/3.5be1db1e.chunk.js": "/RobPortfolio/static/js/3.5be1db1e.chunk.js",
+    "static/js/3.5be1db1e.chunk.js.map": "/RobPortfolio/static/js/3.5be1db1e.chunk.js.map",
+    "index.html": "/RobPortfolio/index.html",
+    "static/css/2.301e199a.chunk.css.map": "/RobPortfolio/static/css/2.301e199a.chunk.css.map",
+    "static/css/main.52b7ae50.chunk.css.map": "/RobPortfolio/static/css/main.52b7ae50.chunk.css.map",
+    "static/js/2.1e1fa11e.chunk.js.LICENSE.txt": "/RobPortfolio/static/js/2.1e1fa11e.chunk.js.LICENSE.txt",
+    "static/media/budget.3e395a9c.jpg": "/RobPortfolio/static/media/budget.3e395a9c.jpg",
+    "static/media/App.css": "/RobPortfolio/static/media/code-and-coffee.972afab0.jpg",
+    "static/media/employee.fe4fd9a2.jpg": "/RobPortfolio/static/media/employee.fe4fd9a2.jpg",
+    "static/media/fitness.cccafeb9.jpg": "/RobPortfolio/static/media/fitness.cccafeb9.jpg",
+    "static/media/me.9b289fe8.jpg": "/RobPortfolio/static/media/me.9b289fe8.jpg",
+    "static/media/weather.0ab23b74.jpg": "/RobPortfolio/static/media/weather.0ab23b74.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04510cb2.js",
+    "static/css/2.301e199a.chunk.css",
+    "static/js/2.1e1fa11e.chunk.js",
+    "static/css/main.52b7ae50.chunk.css",
+    "static/js/main.975a9511.chunk.js"
+  ]
+}
